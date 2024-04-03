@@ -469,6 +469,19 @@ html, body {
 
  @media(max-width:480px){
 
+    .Hero_section{
+ 
+    
+        .hero-img-wrapper{
+ 
+            img{
+                width: 80%;
+             }
+    
+        }
+       
+    }
+
 
     .img_section{
 

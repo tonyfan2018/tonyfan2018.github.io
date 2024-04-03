@@ -396,11 +396,24 @@ html, body {
 
 
 
-    @media(max-width: 480px) {
+@media(max-width: 480px) {
 
+    .Hero_section{
+  
+    
+        .hero-img-wrapper{
+    
+     
+            img{
+    
+                width: 80%;
+             }
+    
+        }
+       
+    }
 
-
-        .Main_section{
+.Main_section{
 
             padding: 40px 24px;
 
