@@ -164,10 +164,7 @@ i{
           align-items: center;
           width: 32rem;
           height: 9rem;
-          overflow: hidden;
-  
-          /* transition: all .45s ease; */
-          
+          overflow: hidden;          
   
           & span {
         
@@ -1154,6 +1151,7 @@ align-items: center;
 
 
 
+
 /* media 480 below */
 
 
@@ -1194,6 +1192,8 @@ padding: 40px 24px;
 
 
 .wrapper{
+
+  margin-bottom: 30px;
 
               .row-wrapper{
               
@@ -1244,17 +1244,7 @@ padding: 40px 24px;
                             
                                 } 
                           
-                              }
-            
-
-
-
-
-
-                  
-
-
-                    
+                              }     
 
             }
 
@@ -1268,9 +1258,12 @@ padding: 40px 24px;
               justify-content:space-between;
               align-items: center;
               overflow: hidden;
-            
+
             
             }
+
+
+          
 
 
           
@@ -1279,6 +1272,33 @@ padding: 40px 24px;
 
       
 
+        .btn{
+              
+          background:var(--color-Primary);
+
+          .circle{
+          
+            display: none;
+              
+          }
+      
+          .btn-text{
+          
+            pointer-events:none;
+            color: #fff;
+
+          }
+      
+          &:hover{
+      
+         
+            .btn-text{
+              color:#fff;
+              left: 0px;
+            }
+      
+          }
+        }
 
         @keyframes roll {
           0%    { top: 0rem;}
