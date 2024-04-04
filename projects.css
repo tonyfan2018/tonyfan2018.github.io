@@ -120,6 +120,18 @@
   
         }
 
+
+        .ux-row.foodsup_mobile{
+  
+        
+         pointer-events: none;
+    
+    
+          }
+
+
+        
+
   
     .ux-row{
       
@@ -228,7 +240,7 @@
      
            }
           .info-title{
-          width: 100%;
+            width: 100%;
            font-size: 80px;
            font-weight: 400;
            line-height: 100%;
@@ -238,8 +250,10 @@
           }
 
           .chips-wrapper{
+   
             margin-top: 16px;
             display: flex;
+           
             flex-wrap: wrap;
             gap: 12px;
             font-family: "Archivo", sans-serif;
