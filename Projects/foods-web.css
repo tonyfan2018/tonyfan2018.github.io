@@ -387,16 +387,17 @@ html, body {
         
     }
 
-    .outcome_img{
+    .outcome_wrapper{
 
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
 
         img{
 
 
-            width: 80%;
+            width: 100%;
         }
 
         
