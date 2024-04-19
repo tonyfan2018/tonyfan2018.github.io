@@ -607,7 +607,7 @@ i{
     mix-blend-mode: normal !important;
     font-size: 2em;
     text-transform: uppercase;
-    animation: marquee-animation 5s linear infinite;
+    animation: marquee-animation 15s linear infinite;
 
 }
 
