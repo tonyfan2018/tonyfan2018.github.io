@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="stylesheet" type="text/css" href="../projects.css">
+    <link rel="stylesheet" type="text/css" href="../Projects/foodsup-mobile.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/Flip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/Observer.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollToPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/Draggable.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/MotionPathPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/EaselPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/PixiPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/TextPlugin.min.js"></script>
+
+
+    <!-- RoughEase, ExpoScaleEase and SlowMo are all included in the EasePack file -->    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/EasePack.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/CustomEase.min.js"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@beta/bundled/locomotive-scroll.min.js"></script>
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.33/dist/lenis.min.js"></script> 
+
+
+
+
+<title>Foodsup-Mobile</title>
+</head>
+<body class="bodyfixed">
+
+
+
+  <section class="loader">
+    <h2 class="reveal-text">
+      Tony Fan
+    </h2>
+  </section>
+
+  <div class="container">
+
+    <div class="navbar">
+        
+        <a href="../home.html"><span class="site-logo">Tony Fan</span></a>
+
+           <div class="nav-links">
+            
+                    <a href="../projects.html" class="btn-roll">
+                        <span class="btn-text lean ">
+                                <span>Design</span>
+                                <span>Design</span>
+                        </span>
+                    </a>
+
+                
+
+                    <!-- <a href="about.html" class="btn-roll">
+                        <span class="btn-text lean ">
+                                <span>About</span>
+                                <span>About</span>
+                        </span>
+                    </a> -->
+
+                    <a href="../TonyFan_Resume.pdf" target="_blank" class="btn-roll">
+                        <span class="btn-text lean ">
+                                <span>Resume</span>
+                                <span>Resume</span>
+                        </span>
+                    </a>
+
+
+                <a href="mailto:tonyfan2018@gmail.com" target="_blank" class="btn-roll outlined">
+                   <div class="dot"></div>
+                    <span class="btn-text lean">
+                        
+                        <span >Let's Talk</span>
+                        <span >Let's Talk</span>
+                    </span>
+                </a>
+
+                   
+               
+         </div>
+     
+            <div id="menu-item">
+                    <div class="burger-lines">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                   </div>
+            </div>
+
+           
+    </div>
+  
+    <div id="nav-container">
+       
+
+            <div class="col">
+
+
+                <div class="nav-link">
+                    <a href="../home.html">Home</a>
+                </div>
+         
+
+                    <div class="nav-link">
+                        <a href="../projects.html">Design</a>
+                    </div>
+              
+
+                <!-- <div class="nav-link">
+                    <a href="#">About</a>
+                </div> -->
+
+                <div class="nav-link">
+                    <a href="../TonyFan_Resume.pdf" target="_blank" >Resume</a>
+                </div>
+            </div>
+    
+                <div class="nav-footer">
+                    
+                        <div class="footer-divider"></div>
+
+                    <div class="footer-wrapper">
+
+                    
+                            <div class="footer-links">
+                                <a href="mailto:tonyfan2018@gmail.com"target="_blank">
+                                <div class="btn-outlined">
+                                    <span class="circle">
+                                        <span class="icon arrow"></span>
+                                    </span>
+
+                                    <span class="btn-text">Email to me</span>
+                                </div>
+                            </a>
+
+                            </div>
+
+
+                          
+
+                        
+
+                  
+
+                        <div class="footer-links"> 
+                        
+                            <a href="https://www.linkedin.com/in/tony-fan-2021/" target="_blank"  >
+
+                                    <div class="link_icon">
+                                        <ion-icon name="logo-linkedin"></ion-icon>
+                                    </div>
+                        
+                                </a>
+
+                            </div>
+                    </div>  
+                </div>     
+    </div>
+
+    
+
+</div>
+
+<!-- navigation bar above -->
+
+    <section  class="Hero_section">
+
+
+        <div class="hero-img-wrapper">
+            <img src="../Projects/img/foodsup-mobile-hero.png" alt="hero-img">
+        </div>
+
+
+    </section>
+
+    <section class="First_section">
+
+        <div class="Heading_wrapper">
+
+           <div class="subtitle">Delivery<span>Free</span>Return</div>
+           <div class="head">grocery delivery app</div>
+           <div class="para">Mainly supply local restaurant where in</div>
+           <div class="bottom_subtitle"><span style="background:#DEFEBC">Toronto</span>and<span style="background:#FFF6A4;" >Montreal</span></div>
+
+        </div>
+
+        <div class="col_wrapper">
+            <div class="Heading_wrapper">
+            <div class="heading">BACKGROUND AND CONTEXT</div>
+            <div class="para">As a result of shifts in FoodsUp's business model and marketing strategy, the original version's design and functions no longer align with the expectations of our current customer base, nor the demands of our marketing and operations teams.</div>
+            <div class="para"> Based on feedback from customers using our mobile app for purchasing products and data results from marketing department campaigns, our development team has decided to redesign and develop a new iOS and Android mobile application to address these needs. </div>
+         </div>
+
+            <div class="Subheading_wrapper">
+                <div  class="Subheading_one">Problem statement</div>
+                
+                <div  class="Subheading_two">Feedbacks from FoodsUP clients</div>
+               <ul class="Subpara">
+                <li>Home page products description fonts size is very hard to read.</li>
+                <li>Unclear banner layout distracted user to find item which they want.</li>
+                <li>Unclear “add item” component make user difficult to perceive whether they added items and how much added already.</li>
+                <li>Can’t login with email, google  and facebook account.</li>
+               </ul>
+               <br>
+               <div  class="Subheading_two">Requirements from Operation Team</div>
+               <ul class="Subpara">
+                <li>Add promotions recommend system in search function area for user can buy more discount products. </li>
+                <li>Enhance the search functionality on the homepage to enable customers to quickly find and purchase the products they desire.</li>
+               </ul>
+            </div>
+
+
+    </div>
+    <!-- col_wrapper -->
+
+    </section>
+
+
+    <section class="Second_section">
+
+        <div class="Heading_wrapper_two">
+
+            <div>discover</div>
+            <div>User Research</div>
+            <div>This project uses face to face interview to serve as a means to validate assumptions  made during the early stages of the design process. Gathering direct feedback from users can confirm or challenge initial hypotheses, ensuring that the design decisions are based on real user insights rather than assumptions.</div>
+
+        </div>
+
+
+        <div class="Subheading_wrapper">
+            <div  class="Subheading_one">Objective</div>
+           <ul class="Subpara">
+            <li>To understand user’s pain-points during shopping with our app.</li>
+            <li>To find out the user’s need when using app.</li>
+            <li>To find out the user experience in searching, selecting, saving and purchasing products on FoodsUP.</li>
+           </ul>
+           <br>
+           <div  class="Subheading_one">Interview Questions</div>
+           <ul class="Subpara">
+            <li>Can you tell me a bit about yourself and your experience with our app?</li>
+            <li>How often do you use FoodsUp mobile app and for what purposes?</li>
+            <li>Can you recall a recent experience where you encountered difficulties or frustrations while shopping on our app?</li>
+            <li>Have you ever abandoned a purchase or left the app because of an issue you encountered? If so, could you describe what happened?</li>
+            <li>Walk me through the process you typically follow when searching for a specific product on our app.</li>
+            <li>What improvements or additions would you like to see in future versions of FoodsUp mobile app.</li>
+           </ul>
+        </div>
+
+    </section>
+
+    <section class="Second_section">
+
+        <div class="Heading_wrapper_two">
+
+            <div>discover</div>
+            <div>Synthesize KEY INSIGHTS</div>
+            <div>Through the in-depth interview, participants shared insights regarding their experiences. This data allowed me to gain a deep understanding of users behaviours & perceptions.</div>
+
+        </div>
+
+        <div class="row_wrapper">
+
+            <div class="card">
+
+                <img class="icon_24px" src="../Projects/img/icons/“.svg" alt="comma">
+
+
+                <div class="card_wrapper">
+
+                    <div class="card_para_inden">I hope there is a feature that can easily place large orders and have multiple payment options available through the mobile app so that I can streamline procurement and control costs effectively.</div>
+
+                </div>
+
+                <div class="name_card">
+
+                    <div class="avatar"><img src="../Projects/img/icons/Mohammad.png" alt="avatar"></div>
+
+                    <div class="avatar_name">Mohammad Jethwa</div>
+
+                </div>
+
+            </div>
+
+            <!-- card above -->
+
+            <div class="card">
+
+                <img class="icon_24px" src="../Projects/img/icons/“.svg" alt="comma">
+
+
+                <div class="card_wrapper">
+
+                    <div class="card_para_inden"> I need quickly order fresh product and ingredients through the mobile app so that I can efficiently manage inventory and ensure smooth kitchen operations.</div>
+
+                </div>
+
+                <div class="name_card">
+
+                    <div class="avatar"><img src="../Projects/img/icons/David Kim.png" alt="avatar"></div>
+
+                    <div class="avatar_name">David Kim</div>
+
+                </div>
+
+            </div>
+
+            <!-- card above -->
+
+            <div class="card">
+
+                <img class="icon_24px" src="../Projects/img/icons/“.svg" alt="comma">
+
+
+                <div class="card_wrapper">
+
+                    <div class="card_para_inden">I want to easily place recently purchase order on the mobile app so that I can minimize time spent on grocery shopping.</div>
+
+                </div>
+
+                <div class="name_card">
+
+                    <div class="avatar"><img src="../Projects/img/icons/Allen Hong.png" alt="avatar"></div>
+
+                    <div class="avatar_name">Allen Hong</div>
+
+                </div>
+
+            </div>
+
+            <!-- card above -->
+
+            <div class="card">
+
+                <img class="icon_24px" src="../Projects/img/icons/“.svg" alt="comma">
+
+
+                <div class="card_wrapper">
+
+                    <div class="card_para_inden">I hope to receive real-time updates on inventory quantity and prices through the mobile app so that I can effectively manage inventory and control business expenses.</div>
+
+                </div>
+
+                <div class="name_card">
+
+                    <div class="avatar"><img src="../Projects/img/icons/Maria.png" alt="avatar"></div>
+
+                    <div class="avatar_name">Maria</div>
+
+                </div>
+
+            </div>
+
+            <!-- card above -->
+
+
+        </div>
+
+    </section>
+
+
+    <section class="Second_section">
+
+        <div class="Heading_wrapper_two">
+
+            <div>discover</div>
+            <div>cometitive analysis</div>
+            <div>I began by exploring existing products that meet the user needs & initiated this process with a SWOT analysis. Then I started to research different grocery  delivery apps and looked at their flows and key features.</div>
+
+        </div>
+
+
+        <div class="img_wrapper">
+
+            <img src="../Projects/img/Foodsup_Competitor_analysis.png" alt="Competitive _Analysis">
+
+        </div>
+
+        <div class="Heading_wrapper_three">
+
+            <div class="Heading_two">THE IMPORTANT FINDINGS</div>
+
+        </div>
+
+
+        <div class="row_wrapper">
+
+            <div class="card">
+
+                <img class="icon_56px" src="../Projects/img/icons/Order.svg" alt="icon_order">
+
+
+                <div class="card_wrapper">
+
+                    <div class="card_title">Enhance order system</div>
+                    <div class="card_para">Simplifies the browsing, selection, and checkout process, making it easy for users to order groceries with minimal effort.</div>
+
+                </div>
+
+            </div>
+
+            <!-- card above -->
+
+            <div class="card">
+
+                <img class="icon_56px" src="../Projects/img/icons/customer.svg" alt="icon_customer">
+
+
+                <div class="card_wrapper">
+
+                    <div class="card_title">Improving customer service</div>
+                    <div class="card_para">Investing in customer service enhancements, such as implementing AI-powered chatbots for instant assistance or improving response times, can boost customer satisfaction.</div>
+
+                </div>
+
+            </div>
+
+            <!-- card above -->
+
+            <div class="card">
+
+                <img class="icon_56px" src="../Projects/img/icons/Trust.svg" alt="icon_trust">
+
+
+                <div class="card_wrapper">
+
+                    <div class="card_title">Establish user trust</div>
+                    <div class="card_para">Strengthening data security measures and privacy policies can enhance user trust and confidence in the platform.</div>
+
+                </div>
+
+            </div>
+
+            <!-- card above -->
+
+            <div class="card">
+
+                <img class="icon_56px" src="../Projects/img/icons/book-open.svg" alt="icon_book">
+
+
+                <div class="card_wrapper">
+
+                    <div class="card_title">Tailored Promotional Strategies</div>
+                    <div class="card_para">Expanding promotional strategies, such as offering personalized discounts based on user preferences or purchase history, can drive customer loyalty and retention.</div>
+
+                </div>
+
+            </div>
+
+            <!-- card above -->
+
+        </div>
+
+    </section>
+
+
+    <section class="Second_section">
+
+        <div class="Heading_wrapper_two">
+
+            <div>Define</div>
+            <div>Design GOALs</div>
+            <div>Through user interviews and competitive analysis, we gained extensive insights into customers' desire for a streamlined and efficient order system, leading us to uncover several critical imperatives that our solution must address.</div>
+
+        </div>
+
+
+        <div class="Subheading_wrapper">
+            <div  class="Subheading_one">Possible Solutions</div>
+           <ul class="Subpara">
+            <li>Simplify checkout steps to make it easier for users.</li>
+            <li>Add one-click reorder for frequently purchased items.</li>
+            <li>Allow users to customize delivery preferences during checkout.</li>
+            <li>Provide real-time updates on order status.</li>
+            <li>Notify users through various channels (push notifications, email, SMS).</li>
+            <li>Partner with trusted payment gateways to ensure secure transactions and PCI compliance, offering users diverse payment options while protecting their financial information.</li>
+            <li>Create a user-friendly return portal.</li>
+            <li>Clarify return policies for easy understanding.</li>
+            <li>Develop interactive onboarding tutorials or walkthroughs that guide new users through key app features and functionalities</li>
+            <li>Providing contextual help resources like tooltips and pop-up guides for instant assistance, reducing frustration and enhancing user confidence.</li>
+           </ul>
+
+    </section>
+
+
+    <section class="Second_section">
+
+        <div class="Heading_wrapper_two">
+
+            <div>Define</div>
+            <div>Prioritize design solutions</div>
+            <div>we assess the technical feasibility and potential impact of each design solution, considering factors like development resources and timeline constraints. Finally, we validate our prioritization with stakeholders, ensuring consensus and alignment before moving forward with implementation.</div>
+
+        </div>
+
+
+        <div class="Subheading_wrapper">
+            <div  class="Subheading_one">Final design goals</div>
+
+        <div class="row">
+
+                <img class="icon_48px" src="../Projects/img/icons/Place_order.svg" alt="icon_placeOrder">
+
+             <div class="col">
+                <div  class="Subheading_two">Streamlined Place Order Process</div>
+                <ul class="Subpara" >
+                <li>Smart auto-fill feature to suggest commonly used items or addresses.</li>
+                <li>Optimizing the checkout flow with multiple payment options.</li>
+                <li>Quick reorder feature for frequent items.</li>
+                </ul>
+            </div>
+
+        </div>
+
+            <br>
+
+        <div class="row">
+
+            <img class="icon_48px" src="../Projects/img/icons/Onboarding.svg" alt="icon_onboarding">
+
+            <div class="col">
+                <div  class="Subheading_two">Interactive onboarding page</div>
+                <div  class="Subpara">This onboard page aims to accurately identify user types and assist them in easily finding the products they desire.</div>
+            </div>
+
+         </div>
+
+            <br>
+
+         <div class="row">
+
+            <img class="icon_48px" src="../Projects/img/icons/Login.svg" alt="icon_login">
+
+            <div class="col">
+                <div  class="Subheading_two">Enhance log in method</div>
+                <div class="Subpara">This design aim to offer users a quick and convenient way to access their accounts while ensuring their security and privacy are protected.</div>
+            </div>
+
+         </div>
+
+        
+        
+    </section>
+ 
+
+        <section class="Second_section">
+
+            <div class="Heading_wrapper_two">
+    
+                <div>design</div>
+                <div>Initial Concepts</div>
+                <div>Based on insights gathered from user interview and the business requirements from marketing team, I started to create the user flows and wireframes.</div>
+
+                
+    
+            </div>
+
+            <div class="Heading_wrapper_three">
+
+            <div class="Heading_two">USER FLOW</div>
+
+            </div>
+    
+            <div class="img_wrapper">
+    
+                <img src="../Projects/img/Foodsup_Userflow_onboarding.png" alt="userflow_onboarding">
+                <img src="../Projects/img/Foodsup_Userflow_placeorder.png" alt="userflow_placeorder">
+                <img src="../Projects/img/Foodsup_Userflow_login.png" alt="userflow_login">
+    
+            </div>
+
+
+
+                <div class="Heading_wrapper_three">
+
+                <div class="Heading_two">WIREFRAME</div>
+                <div class="para">For the further clear understanding of how user will interact with the application. I crafted wireframe by on user flow.</div>
+                </div>
+
+                <div class="img_wrapper">
+    
+                    <img src="../Projects/img/wireframe_onboarding.jpg" alt="wireframe_onboarding">
+                    <img src="../Projects/img/wireframe_placeorder.jpg" alt="wireframe_placeorder">
+                    <img src="../Projects/img/wireframe_Login.jpg" alt="wireframe_login">
+        
+                </div>
+
+
+
+       </section>
+
+
+    <section class="Second_section">
+
+        <div class="Heading_wrapper_two">
+
+            <div>Design</div>
+            <div>DESIGN SYSTEM</div>
+            <div>Creating a design system before mockups is crucial as it sets the foundation for a consistent visual language and user experience. It streamlines the design process by providing reusable elements and guidelines. Ultimately, it saves time, maintains consistency, and allows for easier scalability and updates.</div>
+
+        </div>
+
+        <div class="img_wrapper">
+    
+            <img src="../Projects/img/Foodsup_Design_system.jpg" alt="mockup_onboarding">
+            <img src="../Projects/img/Foodsup_Illustration.jpg" alt="Foodsup_Design_system">
+
+        </div>
+ 
+    </section>
+
+    <section class="Second_section">
+
+        <div class="Heading_wrapper_two">
+
+            <div>Design</div>
+            <div>FINAL DESIGN</div>
+            <div>After receiving feedback from usability tests, we begin creating the final mockups that incorporate the suggested improvements. These refined mockups are then handed off to developers for implementation.</div>
+
+        </div>
+        
+        <div class="img_wrapper">
+    
+            <img src="../Projects/img/mockup_onboarding.jpg" alt="Foodsup_Design_system">
+            <img src="../Projects/img/mockup_Login.jpg" alt="mockup_login">
+            <img src="../Projects/img/mockup_placeorder.jpg" alt="mockup_placeorder">
+        </div>
+
+
+      
+
+ 
+    </section>
+
+
+
+       <section class="Project_link_section">
+
+        <a class="Project_link_wrapper" href="../Projects/foodsup-web.html">
+        
+            <div class="Project_time">2023</div> 
+            <div class="Project_title">FoodsUP</div> 
+            <div class="Project_desc">Responsive Website</div>
+            <div class="right_arrow" >
+            <img style="width: 32px;" src="../sources/right_arrow.svg" alt="right_arrow">
+            </div>
+        </a>
+
+
+        <a class="Project_link_wrapper" href="../Projects/ott-remit.html">
+        
+            <div class="Project_time">2022</div> 
+            <div class="Project_title">OTT Remit</div> 
+            <div class="Project_desc">Mobile APP</div>
+            <div class="right_arrow" >
+            <img style="width: 32px;" src="../sources/right_arrow.svg" alt="right_arrow">
+            </div>
+        </a>
+
+      
+
+        <a class="Project_link_wrapper" href="../Projects/preka.html">
+        
+                <div class="Project_time">2022</div> 
+                <div class="Project_title">PREKA</div> 
+                <div class="Project_desc">Responsive Website</div>
+                <div class="right_arrow" >
+
+
+                <img style="width: 32px;" src="../sources/right_arrow.svg" alt="right_arrow">
+                </div>
+        </a>
+
+    </section>
+
+    <footer>
+
+        <span class="footer-top">
+
+            <span class="top-first">
+                <span>DESIGNED</span> <span>AND</span> <span>DEVELOPED</span>
+            </span>
+
+            <span class="top-second">
+                <span>BY</span> <span>TONY FAN</span>
+            </span>
+
+        </span>
+    
+
+        <span class="footer-bot">
+
+            <span> <span><a href="mailto:tonyfan2018@gmail.com" target="_blank">EMAIL ME</a></span> <span><a href="https://www.linkedin.com/in/tony-fan-2021/" target="_blank">LINKEDIN</a></span> </span>  <span>Copyright©TONY FAN</span>
+
+        </span>
+    
+    
+
+    </footer>
+    
+    <div class="cursor"> 
+        <span class="cursor-roll">
+            <span>View more</span>
+        </span>
+    </div>
+   
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script src="../main.js"></script>
+<script src="../projects.js"></script>
+
+</body>
+</html>

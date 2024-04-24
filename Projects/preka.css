@@ -323,6 +323,7 @@ html, body {
     }
 
 
+  
     .video{
 
 
@@ -331,9 +332,14 @@ html, body {
 
 
 
+
+
+ 
+
+
     @media(max-width: 960px) {
 
-
+       
 
         .Main_section{
 
@@ -342,12 +348,15 @@ html, body {
         }
 
 
+        .video{
 
-    .video{
+
+            padding: 0 40px;
+        }
 
 
-        padding: 0 40px;
-    }
+
+  
 
 
     .Heading_wrapper_two{
@@ -394,9 +403,17 @@ html, body {
     }
 
 
+  
+
 
 
 @media(max-width: 480px) {
+
+    .video{
+
+
+        padding: 0 24px;
+    }
 
     .Hero_section{
   
@@ -459,16 +476,6 @@ html, body {
      
         }
 
-
-
-    .video{
-
-
-        padding: 0 24px;
-    }
-
-
-    
 
 
 
