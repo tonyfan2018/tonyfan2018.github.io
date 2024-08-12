@@ -101,7 +101,7 @@ html, body {
 
             .para{
 
-                font-size: 24px;
+                font-size: 18px;
                 font-family: "Archivo", sans-serif;
                 text-transform:none;
                 line-height: 120%;
@@ -181,7 +181,13 @@ html, body {
             font-family: "Archivo", sans-serif;
             text-transform: none;
 
+        .subheading_wrapper_row{
 
+
+            display: flex;
+            flex-direction: row;
+            background: #a0e806;
+        }
         
             
             .Subheading_one{
@@ -200,7 +206,7 @@ html, body {
  
                 font-size: 18px;
                 font-weight: 500;
-                line-height: 120%;
+                line-height: 140%;
                 margin-bottom:4px;
             
                   
@@ -208,11 +214,12 @@ html, body {
     
             .Subpara{
                 
-  
                 font-size: 16px;
                 max-width: 900px;
+                font-family: "Archivo", sans-serif;
                 line-height: 140%;
-    
+                color: var(--color-Primary);
+
              li{
                 margin-left: 16px;
                 margin-bottom: 4px;
@@ -248,7 +255,7 @@ html, body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items:flex-start;
     padding: 80px 88px;
     gap: 40px;
 
@@ -257,28 +264,55 @@ html, body {
 
         font-size: 32px;
         line-height: 120%;
+       
         color: var(--color-Primary);
 
     }
 
     .Heading_wrapper_two{
-    width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 8px;
-   
-    
+    width: 60%;
+    gap: 16px;
 
-    :nth-child(1){
-        color: #98c300;
-        letter-spacing: 16px;
-        line-height: 120%;
+    .wrap_row_flex{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+        margin-top: 16px;
+        font-family: "Archivo", sans-serif;
         font-size: 18px;
-        text-transform: uppercase;
+        line-height: 120%;
+
+    }
+   
+   
+    .chips_black{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background:var(--color-Primary);
+        color: #fff;
+        border-radius: 100px;
+        padding: 16px 24px;
+
+   
+    }
+
+    .chips_white{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background:#F5F5F5;
+        color:var(--color-Primary);
+        border-radius: 100px;
+        padding: 16px 24px;
 
     }
 
-    :nth-child(2){
+  
+
+    .Heading_one{
         line-height: 120%;
         font-size: 40px;
         text-transform: uppercase;
@@ -287,19 +321,19 @@ html, body {
 
     }
 
-    :nth-last-child(1){
-        
-        width: 60%;
-        line-height: 140%;
+    .Heading_para{
+
         font-family: "Archivo", sans-serif;
-        color: var(--color-Secondary);
         font-size: 18px;
-
-
-        
+        line-height: 120%;
+        color: var(--color-Secondary);
     }
 
+
+
 }
+
+
 
 .Subheading_wrapper{
 
@@ -307,10 +341,10 @@ html, body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    flex-wrap: wrap;
     width: 100%;
     font-family: "Archivo", sans-serif;
     text-transform: none;
+    flex-basis: 100%;
 
 
     .row{
@@ -320,6 +354,12 @@ html, body {
         justify-content: flex-start;
         align-items: flex-start;
         gap: 8px;
+        margin-bottom: 32px;
+
+    .icon_48px{
+
+        width: 80px;
+    }
 
         
     }
@@ -350,7 +390,9 @@ html, body {
        
         font-size: 16px;
         max-width: 900px;
+        font-family: "Archivo", sans-serif;
         line-height: 140%;
+        color: var(--color-Primary);
        
 
      li{
@@ -359,6 +401,17 @@ html, body {
         margin-bottom: 4px;
         list-style-position:outside;
      }
+
+    }
+
+    .chips_square{
+
+        font-size: 18px;
+        line-height: 120%;
+        padding: 16px;
+        border-radius: 16px;
+        color: var(--color-Primary);
+        background: #F5F5F5;
 
     }
 
@@ -409,11 +462,11 @@ html, body {
 
 .row_wrapper{
 
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: 32px;
-    justify-content: space-between;
-    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-items: stretch;
+    gap: 16px;
+    flex-wrap: wrap;
     font-family: "Archivo", sans-serif;
 
     .card{
@@ -421,10 +474,10 @@ html, body {
         display: flex;
         align-items: flex-start;
         flex-direction: column;
-        background: #F0F1F3;
-        padding: 32px;
+        background: #F5F5F5;
+        padding: 24px;
         border-radius: 16px;
-        gap: 16px;
+        gap: 12px;
         height: 100%;
 
     .icon_56px{
@@ -434,7 +487,7 @@ html, body {
 
     .icon_24px{
 
-        width: 24px;
+        width: 16px;
     }
 
      .card_wrapper{
@@ -448,9 +501,7 @@ html, body {
 
             font-size: 24px;
             font-weight: 600;
-
             line-height: 120%;
-
             color: var(--color-Primary);
 
         }
@@ -463,10 +514,14 @@ html, body {
         }
 
         .card_para{
-            font-size: 18px;
-            color: var(--color-Secondary);
+            font-size: 24px;
+            color: var(--color-Primary);
+            font-style: italic;
+            font-weight: 600;
             line-height: 140%;
         }
+
+        
      }
 
 
@@ -477,13 +532,13 @@ html, body {
         justify-content: flex-start;
         align-items:center;
         padding: 0px 24px;
-        gap: 24px;
+        gap: 12px;
         
 
         .avatar{
 
             img{
-                width: 56px;
+                width: 32px;
                 border-radius: 100px;
                 object-fit: cover;
             }
@@ -491,7 +546,7 @@ html, body {
         }
 
         .avatar_name{
-            font-size: 20px;
+            font-size: 16px;
             font-weight: 500;
         }
      }
@@ -501,9 +556,245 @@ html, body {
     }
 }
 
+}
+
+
+.Main_col_wrapper{
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
 
 
 }
+
+.Main_col{
+        
+        
+    display: flex;
+    flex-direction: column;
+    font-family: "Archivo", sans-serif;
+    line-height: 140%;
+    flex-basis: 60%;
+    gap: 16px;
+
+
+
+    .Sheading{
+
+        font-size: 24px;
+        font-weight: 600;
+        color: var(--color-Primary);
+
+    }
+
+}
+
+
+.Sub_col_wrapper{
+
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.Sub_col{
+        
+        
+    display: flex;
+    flex-direction: column;
+    font-family: "Archivo", sans-serif;
+    line-height: 140%;
+    flex-basis: 30%;
+    gap: 16px;
+
+    .icon_60px{
+
+        width: 60px;
+    }
+
+    .Sheading{
+
+        font-size: 24px;
+        font-weight: 600;
+        color: var(--color-Primary);
+
+    }
+
+    .Subpara{
+
+        font-size: 16px;
+        font-family: "Archivo", sans-serif;
+        line-height: 140%;
+        color: var(--color-Primary);
+
+    }
+
+}
+
+
+.Sub_heading_col{
+        
+        
+    display: flex;
+    flex-direction: column;
+    font-family: "Archivo", sans-serif;
+    line-height: 140%;
+    flex-basis: 60%;
+    gap: 16px;
+
+    .Sheading{
+
+        font-size: 24px;
+        font-weight: 600;
+        color: var(--color-Primary);
+
+    }
+
+    .Subpara{
+
+        font-size: 16px;
+        font-family: "Archivo", sans-serif;
+        line-height: 140%;
+        color: var(--color-Primary);
+
+    }
+
+}
+
+
+
+
+
+.Subpara{
+
+            font-size: 16px;
+            font-family: "Archivo", sans-serif;
+            line-height: 140%;
+            color: var(--color-Primary);
+
+        }
+
+
+.img_wrapper{
+
+    display: flex;
+    flex-basis: 48%;
+
+    img{
+    
+    width: 100%;
+    max-width: 1264px;
+        
+              
+    }
+        
+        }
+
+
+.design_system{
+
+    display: flex;
+        
+    img{
+            
+    width: 100%;
+                
+                      
+    }
+                
+ }
+
+.row_flex{
+
+        display: flex;
+        flex-direction: row;
+        margin-top: 40px;
+        gap: 60px;
+  
+    }
+
+.GIF_row_flex{
+
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        gap: 24px;
+  
+}
+
+.list{
+
+    color: var(--color-Secondary);
+    font-size: 16px;
+    font-family: "Archivo", sans-serif;
+    line-height: 140%;
+    margin-left: 16px;
+    list-style: decimal;
+
+    li{
+
+        margin-bottom: 16px;
+    }
+ 
+
+    li::marker {
+        color: #11BEEB;
+        font-size: 24px;
+        font-weight: 600;
+        content: counter(list-item) " ";
+        white-space:16px;
+
+      }
+   
+}
+
+
+
+.GIF_row{
+
+    display: flex;
+    flex-direction: row;
+    align-items:flex-end;
+    gap: 16px;
+}
+
+.GIF{
+
+    img{
+
+        width: 300px;
+    }
+}
+
+.demo{
+
+ img{
+
+    width: 100%;
+ }
+   
+ 
+ }
+
+
+
+.GIF_heading{
+        
+    padding: 12px 16px;
+    background: var(--color-Primary);
+    border-radius: 100px;
+    font-family: "Archivo", sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    width: fit-content;
+    margin-top: 40px;
+}
+
 
 
  .Final_section{
@@ -514,19 +805,6 @@ html, body {
     align-items: center;
     padding: 80px 88px;
     gap: 40px;
-
-    .img_wrapper{
-
-        img{
-    
-            margin-bottom: 16px;
-            width: 100%;
-            max-width: 1264px;
-    
-          
-        }
-    
-    }
 
 
     .Heading_wrapper_four{
@@ -591,6 +869,52 @@ html, body {
        
     }
 
+
+.img_wrapper{
+
+    flex-basis: 100%;
+
+        
+    }
+
+
+    .GIF{
+
+        img{
+    
+            width: 180px;
+        }
+    }
+
+
+    .Main_col{
+        
+        
+        flex-basis: 100%;
+    
+
+    
+    }
+
+
+    .Sub_col{
+        
+        
+        flex-basis: 47%;
+
+
+    }
+
+    .Sub_heading_col{
+        
+        
+        flex-basis: 100%;
+  
+    
+    }
+
+
+
         
     .First_section{
   
@@ -630,7 +954,7 @@ html, body {
 
         .Heading_wrapper_two{
 
-            
+            width: 90%;
         
         
             :nth-last-child(1){
@@ -697,6 +1021,34 @@ html, body {
     
         }
        
+    }
+
+    .Sub_col{
+        
+        
+        flex-basis: 100%;
+
+
+    }
+
+
+    .row_flex{
+
+
+        flex-direction: column;
+        margin-top: 40px;
+        gap: 60px;
+  
+    }
+
+
+    .GIF_row{
+
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
     }
 
         
