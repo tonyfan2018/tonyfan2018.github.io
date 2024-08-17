@@ -101,16 +101,16 @@ jQuery(window).on("load", function () {
 
 
 
- gTl.from(".gallery-wrap > *", 1.6,{
-  y: 100,
-  delay:.3,
-  opacity:0,
-  ease: "power2. inOut",
-  stagger: {
-      amount: 2,
-  },
+//  gTl.from(".gallery-wrap > *", .6,{
+//   y: 50,
+//   delay:.3,
+//   opacity:0,
+//   ease: "power2. inOut",
+//   stagger: {
+//       amount: 2,
+//   },
  
-},"-=1.2");
+// },"-=1.2");
 
 
    //  graphic scroll Animation
@@ -257,3 +257,24 @@ $(document).ready(function() {
   // start fancybox:
 	$(".gallery a").fancybox();
 });
+
+
+
+// video scroll trigger
+
+
+// var video  = $('#video');
+// var player = new Vimeo.Player(video);
+
+// gsap.registerPlugin(ScrollTrigger);
+
+
+//   ScrollTrigger.create({
+//     trigger: player,
+//     onEnter: () => player.play(),
+//     onEnterBack: () => player.play(),
+//     onLeave: () => player.pause(),
+//     onLeaveBack: () => player.pause(),
+//   });
+
+
